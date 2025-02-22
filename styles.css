@@ -1,0 +1,82 @@
+html {
+  font-size: 25px; 
+  font-family: "Arial", sans-serif;
+  padding:10px;
+}
+
+body {
+  width: 900px;
+  margin: 0 auto;
+  background-color:#D9EAFD;
+  padding: 10px 20px 20px 20px;
+  border: 5px solid black;
+}
+
+h4{
+	padding:0 0 0 80px;
+	margin:0 auto
+}
+
+#journey,#hobbies,#Bio,#experience{
+	font-family: "Arial", sans-serif;
+	font-size: 40px;
+	padding:40px;
+	margin: 0 auto;
+}
+
+#first{
+	text-align: left;
+	font-size:40px;
+	line-height:2;
+	letter-spacing:3px;
+	border:3px solid black;
+	width:350px;
+	background-color: lightgrey;
+}
+
+h1 {
+  margin: 0;
+  padding: 20px 0 30px;
+  color: black;
+  text-shadow: 5px 5px 10px grey;
+  text-align:center;
+  font-size:80px;
+  font-family:cursive;
+}
+
+h2{
+	margin:0;
+	text-align:center;
+}
+
+figure * {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+figcaption{
+	text-align:center;
+}
+
+#journey{
+	font-size: 30px;
+	 max-width:850px;
+}
+
+a[href]{
+	color:black;
+}
+
+#experience {
+	font-size: 40px;
+}
+
+th,td{
+	padding:10px;
+}
+
+table{
+	padding:10px;
+	border: 5px solid black;
+}
