@@ -41,7 +41,7 @@ h1 {
   text-shadow: 5px 5px 10px grey;
   text-align:center;
   font-size:80px;
-  font-family:cursive;
+  font-family: cursive;
 }
 
 h2{
@@ -61,7 +61,7 @@ figcaption{
 
 #journey{
 	font-size: 30px;
-	 max-width:850px;
+	max-width:850px;
 }
 
 a[href]{
