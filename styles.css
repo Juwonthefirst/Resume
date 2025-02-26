@@ -116,6 +116,8 @@ footer audio{
     height: 20px;
 }
 
-footer.logo{
-    
+footer .logo{
+    border-radius: 20px;
+    width: 10vw;
+    height: 5vh;
 }
