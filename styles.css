@@ -16,17 +16,30 @@ ul, ol, li{
    padding: 0 0 0 15px; 
 }
 
+#first{
+    display: block;
+    padding: 10px 10px;
+    background-color: black;
+}
+
+#first a{
+    text-decoration: none;
+    padding: 5px 10px;
+    color: white;
+}
+
 
 .Bio{
     padding: 20px;
-    background-color: darkgrey ;
 }
 
 
 .Bio section{
     display: flex;
     border: 3px solid black;
-    background-color: aliceblue
+    background-color: aliceblue;
+    border-radius: 25px 25px;
+    height: 20vh;
 }
  
  
