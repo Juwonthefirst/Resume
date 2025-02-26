@@ -11,36 +11,36 @@
 
 <body>
     <header>
+        <div class="head">
         <h1>Juwon Blog</h1>
         <nav id="first">
-            <h4>Table of Contents</h4>
-            <ol>
-                <li><a href="#Bio">Bio data</a></li>
-                <li><a href="#hobbies">Hobbies</a></li>
-                <li><a href="#journey">journey</a></li>
-                <li><a href="#GitHub-links">links</a></li>
-                <li><a href="#contact">contact information</a></li>
-            </ol>
+                <a href="#Bio">About me</a>
+                <a href="#hobbies">Hobbies</a>
+                <a href="#journey">Journey</a>
+                <a href="#GitHub-links">links</a>
+                <a href="#contact">Contact me</a>
         </nav>
+        </div>
     </header>
     <main>
         <br>
         <br>
-        <section id="Bio">
+        <div class="Bio">
+        <section>
+            <figure class="image">
+               <img src="./logos/profile.jpeg"/>
+            </figure>
             <article>
-                <h2>Bio Data</h2>
                 <p><strong>First Name: </strong>Jesujuwon</p>
                 <p><strong>Last Name: </strong>Ajibola</p>
                 <p><strong>Other Name: </strong>OluwaNifemi</p>
                 <p><strong>Date of Birth: </strong>?????</p>
             </article>
-            <figure>
-                <img src="randpic.png" width="370px" height="400px" />
-                <figcaption>A picture of Juwon</figcaption>
-            </figure>
         </section>
+        </div>
         <section id="hobbies">
             <article>
+                <div class="hobby">
                 <h2> Hobbies </h2>
                 <ul>
                     <p> I love to do a lot of things but most are like waves on a beach they come and they go,but here are some that seem to stick with me</p>
@@ -68,10 +68,12 @@
                         <li> C++ </li>
                     </ul>
             </article>
+            </div>
             <aside>
                 <ul>
                     <p> I wish to learn C, JavaScript and Rust soon in the future and maybe add some more languages if I have time</p>
                 </ul>
+            
             </aside>
         </section>
         <section id="journey">
@@ -131,7 +133,7 @@
                             <td>As a means of storing big user data</td>
                         </tr>
                         <tr>
-                            <th scope="row"><img src="./logos/RustLogo.png" alt="Rust logi" /></th>
+                            <th scope="row"><img src="./logos/RustLogo.png" alt="Rust logo" /></th>
                             <td> None</td>
                             <td> First low level language </td>
                             <td>Introduction into low level languages</td>
@@ -158,6 +160,7 @@
             </article>
         </section>
         <br><br>
+   </main>
         <footer>
             <section id="GitHub-links">
                 <h3> For more information:</h3>
@@ -173,6 +176,7 @@
             <audio controls>
                 <source src="audio.mp3" type="audio/mp3">
                 </source>
-    </main>
+            </audio>
+        </footer>
 </body>
 </html>
