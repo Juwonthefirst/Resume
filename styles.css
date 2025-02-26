@@ -86,3 +86,12 @@ th img {
     border: 3px solid black;
     width: 100vw;
 }
+
+.head h1{
+    font-size: 30px;
+}
+
+a:hover{
+    background-color: white;
+    color: black;
+}
