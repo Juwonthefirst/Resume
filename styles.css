@@ -1,3 +1,9 @@
+/* for basic selectors*/
+html, body {
+		overflow-x: hidden;
+	}
+	
+	
 body{
     width: 100vw;
     height: 100vh;
@@ -6,9 +12,6 @@ body{
     font-size: 10px;
 }
 
-main{
-    padding: 0 10px 20px;
-}
 
 h1,h2,h3,h4{
     margin: 0;
@@ -19,12 +22,6 @@ ul, ol, li{
    padding: 0 0 0 15px; 
 }
 
-#first{
-    display: block;
-    padding: 10px 10px 10px 30px;
-    background-color: black;
-}
-
 a{
     text-decoration: none;
     padding: 5px 10px;
@@ -32,35 +29,44 @@ a{
 }
 
 
-.Bio{
+/* for the header */
 
+#first{
+    display: block;
+    padding: 10px 10px 10px 30px;
+    background-color: black;
+    width: 100%;
+    
 }
 
 
+#first a:hover{
+    background-color: #333;
+}
+
+
+.head{
+    width: 100vw;
+}
+
+.head h1{
+    font-size: 30px;
+}
+
+
+
+/* for the Bio section*/
 .Bio section{
     display: flex;
-    border: 3px solid black;
+    border: 3px solid #333;
     background-color: aliceblue;
     border-radius: 25px 25px;
     min-height: 33vh;
     font-size: 16px;
-    margin: 0 0 20px 0;
+    margin: 0 10px 20px 10px;
 }
  
  
-.hobby {
-    background-color: #C4D9FF;
-    padding: 1rem 1rem 1rem 0.4rem;
-    border: 3px solid ghostwhite;
-    border-radius: 0 25px;
-    margin-left: 10px;
-    margin-right: 30px;
-    width: 80vw;
-    height: 10%;
-    font-size: 15px
-}
-
-
 figure.image{
     margin: 10px;
     height: 30vh;
@@ -75,6 +81,22 @@ figure img{
 }
 
 
+/* for hobby section */
+
+
+.hobby {
+    background-color: #C4D9FF;
+    padding: 1rem 1rem 1rem 0.4rem;
+    /*border: 3px solid ghostwhite;
+    border-radius: 0 25px
+    margin-left: 10px;
+    margin-right: 30px;*/
+    width: 100vw;
+    height: 10%;
+    font-size: 15px
+}
+
+
 th img {
     margin: 0;
     max-width: 100%;
@@ -82,21 +104,14 @@ th img {
 }
 
 
-.head{
-    border: 3px solid black;
-    width: 100vw;
-}
-
-.head h1{
-    font-size: 30px;
-}
-
-#first a:hover{
-    background-color: white;
-    color: black;
-}
-
 footer{
     background-color: lightblue;
     color:white;
+    padding: 20px;
+}
+
+footer audio{
+    border: 3px solid black;
+    width: 100px;
+    height: 20px;
 }
