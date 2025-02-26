@@ -11,11 +11,15 @@ h1,h2,h3,h4{
     margin: 0;
     text-align: center;
 }
+
+ul, ol, li{
+   padding: 0 0 0 15px; 
+}
  
  
 .hobby {
     background-color: #C4D9FF;
-    padding: 1rem 1rem 1rem 0;
+    padding: 1rem 1rem 1rem 0.4rem;
     border: 3px solid lightgrey;
     border-radius: 25px;
     margin-left: 10px;
@@ -49,3 +53,6 @@ th img {
     display:flex;
 }
 
+.head{
+    
+}
